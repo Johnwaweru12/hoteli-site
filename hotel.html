@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotelisite - Welcome</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hotelisite</h1>
+        <nav>
+            <ul>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="rooms">
+            <h2>Our Rooms</h2>
+            <p>Choose from a variety of comfortable rooms to suit your needs.</p>
+            <ul>
+                <li>Single Room</li>
+                <li>Double Room</li>
+                <li>Suite</li>
+            </ul>
+        </section>
+        <section id="amenities">
+            <h2>Amenities</h2>
+            <ul>
+                <li>Free Wi-Fi</li>
+                <li>Swimming Pool</li>
+                <li>Fitness Center</li>
+                <li>Restaurant & Bar</li>
+            </ul>
+        </section>
+        <section id="booking">
+            <h2>Book Your Stay</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@hotelisite.com</p>
+            <p>Phone: +1 234 567 8900</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hotelisite. All rights reserved.</p>
+    </footer>
+</body>
+<script src="hotel.js"></script>
+</html>

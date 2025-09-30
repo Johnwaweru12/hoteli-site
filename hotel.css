@@ -1,0 +1,108 @@
+/* hotel.css - Basic styling for Hotelisite */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav {
+    background: #1a2533;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #f9d342;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    color: #2d3e50;
+    margin-bottom: 16px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+    padding: 24px;
+    margin-bottom: 28px;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 6px 24px rgba(44,62,80,0.15);
+}
+
+.button {
+    background: #f9d342;
+    color: #2d3e50;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #ffe066;
+}
+
+footer {
+    background: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    .container {
+        padding: 0 8px;
+    }
+    header {
+        font-size: 1.3rem;
+        padding: 16px 0;
+    }
+    .card {
+        padding: 14px;
+    }
+    nav a {
+        margin: 0 8px;
+        font-size: 0.98rem;
+    }
+}
